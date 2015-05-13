@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/slidebar_MatchParent" >
+
+    <include
+        android:id="@+id/title_layout" 
+        layout="@layout/sliderbar_ppsgame_title" />
+
+    <RelativeLayout
+        android:id="@+id/id_ly_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FF8A00" >
+
+        <Button
+            android:id="@+id/id_send_msg"
+            style="@style/BackToGameBtn"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="发送" />
+
+        <EditText
+            android:id="@+id/id_input_msg"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/id_send_msg"
+            android:layout_toStartOf="@id/id_send_msg"
+            android:background="@drawable/login_edit_normal"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/id_listview_msgs"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/id_ly_bottom"
+        android:layout_below="@id/title_layout"
+        android:divider="@null"
+        android:dividerHeight="5dp" >
+    </ListView>
+
+</RelativeLayout><!-- From: file:/Users/rain/Desktop/Workspace/Android/Github/RabbitRobot/app/src/main/res/layout/activity_main.xml -->

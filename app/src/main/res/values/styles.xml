@@ -1,0 +1,89 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    
+    
+    
+    
+    
+    
+        <!-- 一键复制、复制、领取、返回游戏按钮宽度 高度 -->
+    <style name="CopyBtnWidthHeight">
+        <item name="android:layout_width">68dp</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+    
+        <!-- 按钮字体样式  As Parent Style -->
+    <style name="ButtonTextStyle" parent="CopyBtnWidthHeight">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#55000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    
+     <style name="slidebar_WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="slidebar_MatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    
+        <!-- 返回按钮 -->
+    <style name="BackBtn" parent="ButtonTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@drawable/sliderbar_back_icon</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">30dip</item>
+    </style>
+    
+        <!-- 全局Title状态栏 -->
+    <style name="TitleBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">54dip</item>
+        <item name="android:background">#FF8A00</item>
+    </style>
+    
+        <!-- Title居中标题 -->
+    <style name="TitleTextView" parent="slidebar_WrapContent">
+        <item name="android:textColor">@color/slidebar_white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    
+        <!-- 返回游戏按钮 -->
+    <style name="BackToGameBtn" parent="ButtonTextStyle">
+        <item name="android:layout_marginRight">8dip</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/sliderbar_back_btn_selector</item>
+        <item name="android:text">@string/slidebar_back_to_game</item>
+    </style>
+    
+    
+    
+</resources>

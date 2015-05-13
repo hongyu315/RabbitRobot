@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">流氓兔</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="slidebar_back_to_game">返回</string>
+    <string name="say_hi">在吗？</string>
+    <string name="no_empty_input">至少说点啥</string>
+    <string name="unavablable">现在忙</string>
+
+
+
+</resources>

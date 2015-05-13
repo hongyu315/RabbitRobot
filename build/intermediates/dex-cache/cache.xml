@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/rain/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.3/91ac0b4c3a38b721c7548baa239950f23b65b56e/gson-2.2.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="91ac0b4c3a38b721c7548baa239950f23b65b56e">
+        <dex dex="/Users/rain/Desktop/Workspace/Android/Github/RabbitRobot/app/build/intermediates/pre-dexed/debug/gson-2.2.3-f35dbe6fe91b53bac453fa461e08b7bfb70abfa1.jar" />
+    </item>
+    <item
+        jar="/Users/rain/Downloads/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/rain/Desktop/Workspace/Android/Github/RabbitRobot/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-de08419aebddc46386dbc365117e987fc67ad507.jar" />
+    </item>
+
+</items>
